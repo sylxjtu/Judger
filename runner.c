@@ -21,8 +21,7 @@
 #include "runner.h"
 #include "logger.h"
 
-#define STACK_SIZE (24 * 1024 * 1024)
-
+const int STACK_SIZE = 32 * 1024 * 1024;
 
 int set_timer(int sec, int ms, int is_cpu_time) {
     struct itimerval time_val;
