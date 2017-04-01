@@ -21,7 +21,7 @@
 #include "runner.h"
 #include "logger.h"
 
-#define STACK_SIZE (2 * 1024 * 1024)
+#define STACK_SIZE (8 * 1024 * 1024)
 
 
 int set_timer(int sec, int ms, int is_cpu_time) {
